@@ -13,17 +13,12 @@ function display(cardPlayer) {
 
     if (cardPlayer.length>5) {
         alert('already selected five player !!');
-        tr.appendChild(li);
-        return;
-
-    }
-    else {
         
-
-
-
+        return ;
 
     }
+    
+   
 
     for (let i = 0; i < cardPlayer.length; i++) {
 
@@ -44,6 +39,7 @@ function display(cardPlayer) {
 
 function addplayercard(element) {
 
+
     element.disabled = true;
     const playersName = element.parentNode.parentNode.children[0].innerText;
 
@@ -51,6 +47,9 @@ function addplayercard(element) {
         playersName: playersName
 
     }
+
+
+
     playersArr.push(playerObject);
 
     document.getElementById('total-count').innerText = playersArr.length;
