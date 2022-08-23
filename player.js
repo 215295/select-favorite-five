@@ -25,22 +25,22 @@ function display(cardPlayer) {
 
     // }
 
-//     for (let i = 0; i < cardPlayer.length; i++) {
+    for (let i = 0; i < cardPlayer.length; i++) {
 
-//         const name = playersArr[i].playersName;
+        const name = playersArr[i].playersName;
 
-//         const tr = document.createElement('tr');
-//         tr.innerHTML = `
-//             <th>${i + 1} </th>
-//             <td>${name}</td>
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <th>${i + 1} </th>
+            <td>${name}</td>
           
-//           `;
+          `;
 
-//         tableBody.appendChild(tr);
+        tableBody.appendChild(tr);
 
-//     }
+    }
 
-// }
+}
 
 function addplayercard(element) {
 
