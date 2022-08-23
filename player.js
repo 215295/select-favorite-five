@@ -11,19 +11,19 @@ function display(cardPlayer) {
     tableBody.innerHTML = '';
 
 
-    // if (cardPlayer.length>5) {
-    //     alert('already selected five player !!');
-    //     // tr.appendChild(li);
-    //     return;
+    if (cardPlayer.length>5) {
+        alert('already selected five player !!');
+        tr.appendChild(li);
+        return;
 
-    // }
-    // else {
+    }
+    else {
         
 
 
 
 
-    // }
+    }
 
     for (let i = 0; i < cardPlayer.length; i++) {
 
