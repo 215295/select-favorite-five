@@ -1,3 +1,6 @@
+  
+    
+
 
 
 
@@ -13,8 +16,9 @@ function display(cardPlayer) {
 
     if (cardPlayer.length>5) {
         alert('already selected five player !!');
+        // li.appendChild(tr);
         
-        return ;
+        return  tableBody.appendChild(tr);
 
     }
     
@@ -128,3 +132,4 @@ document.getElementById('btn-total').addEventListener('click', function () {
 
 
 
+//asad
